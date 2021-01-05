@@ -15,14 +15,14 @@ incident-listener:
   port: TODO
   mailSender: TODO
   subject: Incident Report Camunda
-  mailBodyTemplate: >
+  mailBodyTemplate: |
     An error occured in at least one of your processes!
     Please check the following processes in your Camunda Cockpit:
 
     @INCIDENTS
 
     ******************** AUTOMATED MESSAGE ********************
-  incidentTemplate: >
+  incidentTemplate: |
     Process Activity: @ACTIVITY
     Process Instance ID: @PROCESS_INSTANCE_ID
     Incident Message: @MESSAGE
