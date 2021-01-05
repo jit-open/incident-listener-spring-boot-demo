@@ -1,3 +1,4 @@
 .idea/ 
 target/ 
 incident-listener-spring-boot-demo.iml 
+src/main/resources/application.yaml
